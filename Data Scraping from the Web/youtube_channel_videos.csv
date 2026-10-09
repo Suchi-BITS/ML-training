@@ -1,0 +1,1469 @@
+﻿video_id,title,description,published_at,url,views,likes,comments,duration,statistics_status
+bYLb2Up9RVE,Build Your Own AI Job Search Agent. #aiagent #agenticai #python,"What if you could build your own AI job search agent that collects jobs from multiple platforms, matches them with your skills and experience, removes duplicates, ranks the most relevant opportunities, and sends everything in one consolidated email?
+
+In this project, we explore how to build an AI-powered job aggregator using Python, APIs/connectors, AI matching, databases, email automation, and GitHub Actions.
+
+The pipeline is simple:
+
+job sources → normalize → deduplicate → filter → ai matching → rank → one email
+
+A practical project to learn how real-world AI agents can automate repetitive workflows.
+
+Follow for the complete implementation and github project.
+
+#ai #aijobs #aijobsearch #aiagent #agenticai #python #machinelearning #generativeai #llm #langgraph #langchain #automation #jobsearch #careergrowth #softwareengineering #github #githubactions #fastapi #rag #artificialintelligence",2026-10-03T13:13:14Z,https://www.youtube.com/watch?v=bYLb2Up9RVE,27,1,0,PT2M23S,Retrieved
+fsBKmIIOv1U,GPT 6 Sol: A Tradeoff #OpenAI #LLM #ReasoningModel,"GPT-6 Sol is not simply “the cheaper GPT-6.”
+
+In this 60-second breakdown, we look at where Sol sits in the GPT-6 family, its reasoning controls, 1.05M-token context window, multimodal input, API support, pricing, and the benchmark story behind the launch.
+
+The interesting part? OpenAI is positioning Sol around cost-efficient intelligence for complex coding and agentic workflows, rather than simply maximizing benchmark scores.
+
+I also show a practical API experiment so you can see how the model is actually used rather than just reading a specification sheet.
+
+Follow Abhigya AI Lab for practical AI engineering, agentic AI, LLM architecture, RAG, knowledge graphs, and production AI systems.
+
+Hashtags
+
+#GPT6 #GPT6Sol #OpenAI #OpenAIAPI #LLM #ReasoningModel #AgenticAI #AIEngineering #GenerativeAI #AIArchitecture #LLMEngineering #AIAgents #CodingAI #SoftwareEngineering #ProductionAI #AIModels #LLMComparison",2026-10-02T13:39:19Z,https://www.youtube.com/watch?v=fsBKmIIOv1U,5,1,0,PT1M45S,Retrieved
+3jTLu_k_sxU,OKF in 60 secs. #okf #google #ai #ontology,"Simplify AI knowledge sharing with the new Open Knowledge Format.
+
+This format uses plain markdown files with YAML front matter to help AI agents exchange data without vendor lock-in. We explore how this approach improves AI interoperability by removing the need for complex database dependencies in your knowledge management stack.
+#okf #google #ai #ontology 
+
+Subscribe for more technical breakdowns of agentic systems.",2026-10-01T13:30:01Z,https://www.youtube.com/watch?v=3jTLu_k_sxU,47,2,0,PT1M34S,Retrieved
+s7kZ72ZVPFM,3 Claude Models. One Prompt. Big Difference.  #agenticai #claude #anthropic,"Claude Opus vs Sonnet vs Haiku — what actually changes between them?
+
+In this 60-second practical breakdown, I compare the three Claude model families and show how their roles differ:
+
+Opus — deep reasoning, complex coding and demanding tasks
+Sonnet — balance of intelligence, speed and production usability
+Haiku — fast, lightweight, high-throughput workloads
+Same prompt, different models
+Practical API experiment and real response comparison
+Latency, tokens and output differences
+
+Instead of simply trusting model labels, the experiment shows how to compare models using an actual workload.
+
+Follow Abhigya AI Lab for practical AI engineering, Agentic AI, LLMs, RAG, AI architecture and production AI systems.
+
+#Claude #ClaudeAI #ClaudeOpus #ClaudeSonnet #ClaudeHaiku #AIEngineering #GenerativeAI #LLM #LLMEngineering #AIArchitecture #AgenticAI #AIModels #LLMComparison #Anthropic #AIAgents",2026-09-30T13:42:32Z,https://www.youtube.com/watch?v=s7kZ72ZVPFM,101,1,0,PT1M51S,Retrieved
+KdFotCnh0uQ,Claude Agent SDK in 60 secs. #claudeagentsdk #claude #claudeai #caludecode,"Build autonomous systems using the Claude Agent SDK.
+
+This breakdown covers the core architecture, from the agent loop to context management and native filesystem access. You will learn how to implement multi-agent orchestration and handle tool integrations for your next engineering project.
+
+ #claudeagentsdk #claude #claudeai #caludecode
+
+Subscribe for more technical breakdowns of agentic systems.",2026-09-29T13:30:04Z,https://www.youtube.com/watch?v=KdFotCnh0uQ,296,1,0,PT4S,Retrieved
+deBFHvyW2_w,Claude Agent Loop in 120 secs. #claude #claudeagentsdk #aiagents #agenticai #llm,"Master the Claude Agent SDK and move beyond standard LLM API calls.
+
+This breakdown explains how the agent loop manages state, system instructions, and tool use to create autonomous workflows. You will learn to implement these patterns with Python code examples that differentiate basic prompts from sophisticated agentic systems.
+
+The key idea is simple:
+
+Prompt → Agent → Tool Call → Tool Result → Agent → Final Answer
+
+This same agent-loop pattern is fundamental to modern agentic AI systems.
+
+#claude #claudeagentsdk #aiagents #agenticai #llm #generativeai #python #langgraph #aitools #aiprogramming
+
+Subscribe for more technical breakdowns of agentic systems.",2026-09-28T13:30:16Z,https://www.youtube.com/watch?v=deBFHvyW2_w,115,3,0,PT2M19S,Retrieved
+aU7xUH_hDrM,Hermes Desktop in 60s  #aiarchitecture #agenticai #hermesdestop,"Get a native Hermes desktop client for your open-source AI agent workflow.
+
+This breakdown covers how to sync persistent memory, sessions, and skills across your CLI and desktop environment. We explore powerful features like browser automation, vision, and direct messaging integrations for Slack and Telegram.
+
+#aiarchitecture #agenticai #hermesdestop
+
+Subscribe for more technical breakdowns of agentic systems.",2026-09-27T13:30:21Z,https://www.youtube.com/watch?v=aU7xUH_hDrM,203,1,0,PT1M22S,Retrieved
+jYKoGviEUZI,claude agent sdk vs openai agent sdk vs langgraph. #langgraph #claudeagentsdk #openaiagentsdk,"""LangGraph is provider-agnostic — it runs on any LLM using an explicit state graph you control. It's the portable way to build agents with explicit state graphs, with first-class state persistence via SQLite, Postgres, or Redis. It's generally the cheapest on tokens and the go-to for production teams who want fine-grained control."" 
+
+""The OpenAI Agents SDK takes a higher-level approach — agents with handoffs, tightly wired into OpenAI's Responses API. It ships built-in tools like web search, file search, code interpreter, and computer use out of the box, but you're largely locked into OpenAI's ecosystem."" 
+
+""Claude Agent SDK brings the same engine behind Claude Code into a programmable framework. It supports multi-agent orchestration where a lead agent delegates to specialists with their own models, prompts, and tools, plus native filesystem access. Trade-off: it's Claude-model only.""
+
+#langgraph #claudeagentsdk #openaiagentsdk",2026-09-26T13:30:20Z,https://www.youtube.com/watch?v=jYKoGviEUZI,496,2,0,PT11S,Retrieved
+L-jbraqARc4,"Jev, Ontologies & the Neural-Symbolic Loop Explained in 60s. #jev #ontology #decisionmodel #ai","Stop guessing your AI outputs and start using the neural-symbolic loop for calibrated decisions.
+
+This breakdown explains how Jev uses ontologies to organize data, ensuring your agents return typed answers with reliable probabilities. You will see how this type-safe AI architecture moves beyond standard LLM patterns to prioritize objective correctness over human approval.
+
+Subscribe for more technical breakdowns of AI engineering.
+
+#jev #ontology #decisionmodel #ai",2026-09-25T13:30:39Z,https://www.youtube.com/watch?v=L-jbraqARc4,83,0,0,PT1M44S,Retrieved
+Zgl8--KGUXQ,RLHF vs RLCD #decisionmodel #ai #agent,"Stop settling for overconfident AI and start using RLHF vs RLCD comparisons to improve accuracy.
+
+This breakdown explains why optimizing for human preference often leads to model hallucinations, and how calibrated decisions allow your agents to trigger automated responses only when confidence is high.
+
+Learn how to shift your LLM optimization strategy from popularity contests to objective correctness.
+
+Subscribe for more technical breakdowns of AI engineering.",2026-09-24T13:30:15Z,https://www.youtube.com/watch?v=Zgl8--KGUXQ,191,1,0,PT1M12S,Retrieved
+fimWYU0K87I,Why You Don't Need a 70B Model for Emails #jev #ai,"Stop using heavy LLMs for simple classification tasks and switch to Jev AI.
+
+This breakdown covers how Jev operates as a decision-only model to deliver structured JSON outputs for faster agentic workflows. You will learn how to implement this specialized architecture for rapid email triage and high-performance decision-making at a fraction of the cost.
+
+Subscribe for more technical breakdowns of agentic systems.
+
+#JevAI #TypeSafeAI #EmailClassification #AIEngineering #AgenticAI #Python #LLM #GenerativeAI #AIAgents #AIArchitecture #OpenRouter #AIWorkflow #ProductionAI #AIAutomation",2026-09-23T13:30:38Z,https://www.youtube.com/watch?v=fimWYU0K87I,64,3,0,PT1M48S,Retrieved
+IwjkCEW6jvA,"Finally, an AI that makes structured decisions #jevai #ai #dev","Jev AI in 60 Seconds: Faster, Cheaper AI Decisions
+
+Jev AI is a decision-focused AI model from TypeSafe AI, designed to make fast, structured decisions for software and AI agents.
+
+Unlike traditional LLMs that generate long-form text, Jev takes application state and structured questions and returns typed decisions with probabilities.
+
+In this video, we look at:
+• Jev’s performance claims
+• Up to 193.6× faster and 444.6× cheaper in TypeSafe-reported evaluations
+• Reported latency of 70–500 ms
+• Jev’s context window and model specifications
+• Pricing and cost considerations
+• Why Jev is designed for structured decisions rather than long-form generation
+• How Jev can complement frontier LLMs inside AI agents
+
+The key idea:
+LLM for reasoning + Jev for decisions + Code for deterministic logic + Tools for action.
+
+Note: Performance figures mentioned in the video are reported by TypeSafe AI and can vary depending on workload, model configuration, and evaluation methodology.
+
+#JevAI #TypeSafeAI #AgenticAI #AIAgents #GenerativeAI #LLM #AIArchitecture #AIEngineering #AISystemDesign #ProductionAI #AIAgentDevelopment #ContextEngineering #LLMArchitecture #AIInnovation #FutureOfAI",2026-09-22T12:58:43Z,https://www.youtube.com/watch?v=IwjkCEW6jvA,55,3,0,PT1M46S,Retrieved
+nNIAY4KWs_s,How to version control your AI agent's brain #langgraph #coding #ai,"Stop losing track of your agent's history with better LangGraph memory versioning.
+
+Most developers struggle when they cannot revert to previous states during execution. This breakdown shows you how to configure checkpoints for robust agent state management and advanced AI debugging techniques.
+
+Subscribe for more technical breakdowns of AI engineering.
+
+#langgraph #memoryversioning #agenticai #aiengineering #llm #generativeai #aagents #aia rchitecture #llmops #aiarchitecture #langchain #aidevelopment #productionai #aiagents #llminterview",2026-09-22T11:30:16Z,https://www.youtube.com/watch?v=nNIAY4KWs_s,41,2,0,PT1M9S,Retrieved
+BJuqUrzsG5U,How to build a consensus system for AI agents #aiagents #langgraph #coding,"Stop settling for single-agent outputs and start using LangGraph voting mechanisms to improve decision quality.
+
+This breakdown explains how to implement scoring logic to evaluate candidate outputs from multiple agents. You will learn to handle uncertainty in complex workflows by applying flexible selection strategies to ensure your system picks the best result every time.
+
+Subscribe for more technical breakdowns of AI engineering.
+
+#LangGraph #LangGraphInterview #VotingAndScoring #AgenticAI #MultiAgentSystems #AIEngineering #LLM #GenerativeAI #AIArchitecture #AIInterview #LLMInterview #LangChain #MultiAgentAI #AIAgents #ProductionAI",2026-09-20T11:30:07Z,https://www.youtube.com/watch?v=BJuqUrzsG5U,34,1,0,PT31S,Retrieved
+B7xp5235Oqc,Pruning state: The underrated optimization trick ⚡ #langgraph #agenticai  #aiarchitecture,"Stop bloating your agent architecture with unnecessary data.
+
+State pruning is the most efficient way to reduce memory usage and keep your graph checkpoints manageable. This breakdown covers how to implement time-based and size-based pruning strategies so you only keep the data that matters.
+
+Subscribe for more technical breakdowns of AI engineering.
+
+#LangGraph #StatePruning #AgenticAI #AIEngineering #LLM #AIArchitecture #LangGraphTutorial #GenerativeAI",2026-09-19T11:30:09Z,https://www.youtube.com/watch?v=B7xp5235Oqc,66,0,0,PT46S,Retrieved
+16Weg5G6T9I,3 Claude Code Mistakes #ai # #agenticai #claudecode,"Stop making these Claude AI mistakes that kill your output quality.
+
+Most beginners struggle because they rely on vague prompts or fail to manage context effectively. This breakdown covers the specific fixes, including how to structure your CLAUDE.md setup file to ensure consistent performance.
+
+Refine your AI workflow today.
+
+Subscribe for more technical breakdowns of agentic systems.
+
+#ClaudeCode #AICoding #AIEngineering #GenerativeAI #CodingTips #AIProgramming #DeveloperTools #AgenticAI #ClaudeAI #AITools",2026-09-18T11:30:01Z,https://www.youtube.com/watch?v=16Weg5G6T9I,38,1,0,PT1M3S,Retrieved
+_zlJ3nfnSZ8,3 steps to crack langgraph interview  #agenticai #aiengineering #langgraph,"Master LangGraph interview questions about state management in three steps.
+
+Most candidates stumble on state key conflicts during technical screenings. I break down how to categorize these problems, explain the default behavior, and implement the right reducer for your agent architecture.
+
+Subscribe for more technical breakdowns of AI engineering. #langgraph #agenticaisystem",2026-09-17T11:30:39Z,https://www.youtube.com/watch?v=_zlJ3nfnSZ8,69,1,0,PT1M1S,Retrieved
+XuI-NNzPR4U,Which of these 6 Graph Layers is your favorite? 🧠 #ai #tech #data,"Stop building AI agents without a plan—here are the 6 graph layers you need.
+
+From Taxonomy to Memory Graph, these structures help you manage persistent state and provenance in complex systems. We break down the function of each layer so you can choose the right agent architecture for your specific workload.
+
+Subscribe for more technical breakdowns of graph engineering.",2026-09-16T02:30:35Z,https://www.youtube.com/watch?v=XuI-NNzPR4U,43,2,1,PT1M2S,Retrieved
+RuJXtLgEm0s,Is Ontology Killing the Semantic Model #aiarchitecture #agenticai #systemdesign,,2026-09-15T02:36:42Z,https://www.youtube.com/watch?v=RuJXtLgEm0s,43,1,1,PT1M1S,Retrieved
+iESVLnUq_HQ,Do Knowledge Graphs Fail as Agent Memory?,"Do Knowledge Graphs Fail as Agent Memory?
+
+Two 2026 benchmarks raise a provocative question: are Knowledge Graphs actually a bad choice for Agent Memory?
+
+The answer is more nuanced.
+
+One benchmark compared four memory architectures and found that a structured store of atomic facts with validity windows outperformed a full entity-and-time graph. Graph ingestion cost around $14 vs. $0.03 for an embedding-only store, while the graph returned much more context but still scored 3.3 points lower on recall.
+
+The second benchmark exposed an even more interesting problem: temporal reasoning. Static retrieval evaluations passed at 100%, but a test asking “What was true at time T?” failed 41% of the time. The problem was not the graph itself, but incorrect temporal filtering.
+
+So does this mean Knowledge Graphs are obsolete for AI memory?
+
+Not at all.
+
+These benchmarks primarily tested conversation memory. They did not evaluate the areas where graphs can become extremely valuable:
+
+Multi-hop reasoning
+Provenance and traceability
+Complex entity relationships
+Densely connected domain knowledge
+Long-term domain grounding
+Temporal knowledge
+
+The real engineering question is not:
+
+“Graph or Vector?”
+
+It is:
+
+“What kind of memory does my agent actually need?”
+
+For simple conversational history, a full Knowledge Graph may be unnecessary. For complex, connected domains where relationships, provenance, and temporal validity matter, a graph may be the more natural representation.
+
+The key lesson: the hardest problem in agent memory may not be topology — it may be time.
+
+#knowledgegraph #agentmemory #graphmemory #knowledgegraphengineering #ontologyengineering #agenticai #aiagents #aiengineering #llmengineering #generativeai #genai #graphrag #rag #vectordatabase #semanticai #knowledgeengineering #aimemory #temporalgraph #multihopreasoning #provenance #youtubeshorts #yousmonday",2026-09-11T02:30:08Z,https://www.youtube.com/watch?v=iESVLnUq_HQ,128,0,0,PT6S,Retrieved
+2cnHQ_cU3Uk,Can AI really build its own ontology?,"LLMs are no longer being used only to query knowledge graphs. They are increasingly being explored as tools for ontology modeling, ontology extension, alignment, population, evaluation, and continuous evolution.
+
+In this Short, we explore the emerging architecture of LLM-driven ontology engineering across 9 key areas:
+
+Domain and competency-question discovery
+LLM-assisted ontology modeling
+Ontology reuse and alignment
+OWL and formal semantic representation
+Automated reasoning and consistency checking
+SHACL-based constraint validation
+Knowledge graph population and entity linking
+Ontology evaluation and quality measurement
+Agentic, human-in-the-loop ontology evolution
+
+But there is an important engineering principle:
+
+An LLM can propose the ontology. It should not be the final authority on its semantics.
+
+The future is not LLM vs ontology engineer.
+
+It is LLM + ontology engineer + formal reasoning + validation + domain knowledge.
+
+That combination can turn ontology engineering from a largely manual process into an iterative, AI-assisted engineering discipline.
+
+#ontologyengineering #ontology #knowledgegraph #knowledgegraphengineering #semanticai #semanticweb #llm #llms #generativeai #genai #aiengineering #agenticai #knowledgeengineering #owl #shacl #sparql #semanticlayer #graphrag #entityai #aiarchitecture #youtubeshorts",2026-09-10T14:30:17Z,https://www.youtube.com/watch?v=2cnHQ_cU3Uk,275,0,0,PT6S,Retrieved
+Hn2OOrJrx_E,Loop Engineering vs Graph Engineering: Why AI Agents Need Both,"Loop engineering and graph engineering are not competing approaches. They solve different problems — and when combined, they can make Agentic AI systems more capable, reliable, and scalable.
+
+In this Short, we explore:
+
+What loop engineering actually does
+How iterative reasoning, reflection, tool use, and feedback improve agent behavior
+What graph engineering adds: persistent state, relationships, memory, provenance, and coordination
+When a simple loop is enough
+When persistence and multi-agent coordination demand a graph
+How loops can run inside graph-based agent workflows
+How graphs can provide context and memory for the next iteration
+The engineering progression from prompt → loop → workflow → multi-agent → graph
+Why adding complexity should be driven by measurable system limitations
+
+The key idea:
+
+Loops make agents iterate.
+Graphs give agents shared context and persistent knowledge.
+Together, they enable more powerful Agentic AI systems.
+
+#loopengineering #graphengineering #langgraph #agenticai #aiagents #multiagentai #aiengineering #llmengineering #generativeai #genai #knowledgegraph #knowledgeengineering #graphai #graphrag #agentarchitecture #aiarchitecture #contextengineering #aimemory #youtubeshorts",2026-09-10T02:30:07Z,https://www.youtube.com/watch?v=Hn2OOrJrx_E,245,1,0,PT6S,Retrieved
+yg6zW2XAjO4,What If You Could Time-Travel Inside Your LangGraph Agent?,"What are state snapshots in LangGraph, and why do they matter for production-grade Agentic AI systems?
+
+A state snapshot is an immutable, point-in-time capture of an agent’s state during graph execution. Instead of only seeing the final output, snapshots let you inspect what the agent knew and what happened at each stage of execution.
+
+In this Short, we explore:
+
+What a LangGraph state snapshot actually contains
+Why snapshots are immutable and point-in-time
+User-defined state, metadata, managed values, and node history
+Debugging unexpected agent behavior
+Auditing agent decisions and actions
+Replay and execution analysis
+Performance and state-growth profiling
+Time-travel debugging
+How checkpointing enables state persistence and recovery
+Why snapshots become important for long-running and production agent workflows
+
+The key idea:
+
+Your agent's final answer tells you what happened.
+A state snapshot helps you understand why it happened.
+
+#langgraph #langchain #agenticai #aiagents #multiagentai #generativeai #genai #aiengineering #llmengineering #statemanagement #agentsystems #checkpointing #debugging #timetraveldebugging #aidebugging #aiarchitecture #llm #knowledgeengineering #youtubeshorts",2026-09-09T02:48:34Z,https://www.youtube.com/watch?v=yg6zW2XAjO4,174,0,0,PT6S,Retrieved
+dH786nNPWpQ,How does Langgraph handle errors?,"Errors are inevitable in real-world Agentic AI systems — API failures, network timeouts, invalid inputs, tool failures, rate limits, and unexpected node errors.
+
+In this Short, we look at how LangGraph can handle failures using:
+
+Python try-except inside nodes
+Error information stored in state
+Retry nodes and retry strategies
+Fallback paths with conditional routing
+Checkpoints for recovery from the last known good state
+Human-in-the-loop escalation for critical failures
+Recursion limits to prevent infinite loops
+Error monitoring and logging
+
+The key idea is simple:
+
+An agent shouldn't just detect an error — it should know how to recover, retry, fall back, or escalate.
+
+This is an important part of designing reliable LangGraph and production-grade Agentic AI systems.
+
+#langgraph #langchain #agenticai #aiagents #multiagentai #generativeai #genai #aiengineering #llmengineering #python #errorhandling #exceptionhandling #checkpointing #retry #fallback #humanintheloop #aiarchitecture #agentarchitecture #youtubeshorts",2026-09-05T12:31:31Z,https://www.youtube.com/watch?v=dH786nNPWpQ,53,1,0,PT6S,Retrieved
+5eFyHpEUkEQ,Your LangGraph State Can Get Overwritten — Here’s Why?,"What happens when multiple nodes or agents in a LangGraph workflow update the same state?
+
+This is where reducers become critical.
+
+In this Short, we break down how LangGraph reducers control how state updates are combined — instead of simply letting the latest update overwrite the previous value.
+
+You’ll see:
+
+What a reducer actually does
+What happens when no reducer is defined
+How operator.add accumulates results
+How add_messages handles message state
+How reducers support parallel and multi-agent workflows
+Why the reducer you choose defines the semantics of your agent state
+
+The key idea:
+
+Nodes decide what to update.
+Reducers decide how that update changes the state.
+
+If you're building LangGraph, Agentic AI, or multi-agent systems, understanding reducers is essential for designing reliable state management.
+
+#langgraph #langchain #agenticai #aiagents #multiagentai #generativeai #genai #aiengineering #llmengineering #python #statemanagement #aiarchitecture #machinelearning #llm #youtubeshorts",2026-09-05T09:33:36Z,https://www.youtube.com/watch?v=5eFyHpEUkEQ,392,2,0,PT6S,Retrieved
+zhEzl44dMxA,Your AI Agent Has Memory. But Where Does It Live?,"WHERE DOES AGENT MEMORY LIVE?
+
+with a visual showing:
+
+Memory Layers
+      ↓
+     ???
+      ↓
+Knowledge Graph",2026-09-05T02:30:11Z,https://www.youtube.com/watch?v=zhEzl44dMxA,28,2,0,PT2M57S,Retrieved
+lrcn6_5JM1M,Knowledge Graph Memory vs Conversational Memory,"knowledge graph memory vs conversational memory — what’s the difference?
+
+an ai agent can remember a conversation without actually remembering knowledge about the world.
+
+conversational memory focuses on dialogue, context, user intent, and previous interactions.
+
+knowledge graph memory goes deeper — representing entities, relationships, semantics, provenance, temporal information, and connections that an agent can query and reason over.
+
+in this short, i explain the key technical differences between the two and why production-grade ai agents may need both.
+
+the key idea:
+
+conversational memory remembers the conversation.
+knowledge graph memory remembers the world.
+
+#knowledgegraph #knowledgegraphmemory #aimemory #agentmemory #agenticai #aiagents #ontology #ontologyengineering #semanticai #semanticweb #knowledgeengineering #graphrag #rag #generativeai #genai #aiengineering #youtubeshorts",2026-09-04T04:30:16Z,https://www.youtube.com/watch?v=lrcn6_5JM1M,141,2,0,PT6S,Retrieved
+bUoXx2TEu-o,7 Edge Cases That Forced Us to Redraw Our AWS Architecture Diagram,"We wrote a full production deployment spec for our AI-powered semantic layer generator — EKS, Kafka, Neo4j, vLLM, the works. Then we mapped every edge case and failure scenario back onto that architecture, and most of them were config-level fixes. Seven of them weren't.
+
+This video walks through exactly which edge cases actually forced a change to the topology diagram, not just the application code: why a missing Schema Registry meant ""enforced backward compatibility"" was just a sentence with no real mechanism behind it, why our GPU node group can never scale to zero in production once you account for cold-start latency, why a Human Review SLA timer needs an entirely new scheduler component that didn't exist in the original design, and why cost-per-tenant tracking implies a tagging and metrics pipeline nobody had actually built yet.
+
+We also draw a hard line on what stays deliberately out of scope — multi-region disaster recovery — and why deferring that explicitly is a better architectural decision than quietly pretending the current single-region design already handles it.
+
+Part of the ongoing series building an AI-powered semantic layer generator — system design and architecture decisions, one honest trade-off at a time.
+
+#agenticai #aiarchitecture #systemdesign #enterpriseai #devops #cloudarchitecture #kubernetes #aws",2026-09-04T01:30:34Z,https://www.youtube.com/watch?v=bUoXx2TEu-o,46,2,0,PT58M47S,Retrieved
+ou6r8IkChJQ,How LLM works?,"How do llms actually work under the hood?
+
+from tokenization and embeddings to transformer attention, autoregressive generation, and token sampling — this short breaks down the complete llm pipeline in a simple but technically detailed way.
+
+you’ll see how text is converted into tokens, how transformers use q, k, and v attention, how the model generates vocabulary logits and probabilities, and how techniques like temperature, top-k, and top-p influence the next token.
+
+if you’re learning llms, generative ai, transformers, or ai engineering, this is a useful technical overview.
+
+#llm #llms #generativeai #genai #transformers #attentionmechanism #tokenization #embeddings #machinelearning #deeplearning #aiengineering #artificialintelligence #llmengineering #largelanguagemodels #youtubeshorts",2026-09-03T23:30:29Z,https://www.youtube.com/watch?v=ou6r8IkChJQ,88,1,0,PT1M11S,Retrieved
+fNCgVaigTvo,Database Schema vs Ontology,"Why isn't a database schema the same as an ontology?
+
+a database schema tells you how data is structured and stored. an ontology goes further — it captures meaning, concepts, relationships, constraints, semantics, and enables reasoning over knowledge.
+
+in this short, i explain the key differences between database schemas and ontologies, including tables vs concepts, foreign keys vs semantic relationships, owl reasoning, open-world assumptions, shacl validation, interoperability, and why an ontology can act as a semantic layer across multiple data sources.
+
+if you're learning ontology engineering, knowledge graphs, semantic ai, or preparing for ontology engineer interviews, this is an important distinction to understand.
+
+#ontology #ontologyengineering #knowledgegraph #knowledgegraphs #semanticai #semanticweb #owl #sparql #shacl #knowledgeengineering #datamodeling #aiengineering #agenticai #genai #database #databases #youtubeshorts",2026-09-03T03:35:09Z,https://www.youtube.com/watch?v=fNCgVaigTvo,961,3,0,PT6S,Retrieved
+-Xgv3M_WNuc,How Do You Know If Your Ontology Is Actually Good? #ontology,"how do you know if an ontology is actually good?
+
+building an ontology is not just about creating classes and relationships. a production-ready ontology needs to be evaluated for logical consistency, semantic correctness, reasoning quality, data validation, interoperability, maintainability, and its ability to answer real-world competency questions.
+
+in this short, i cover 10 important areas to evaluate an ontology, with practical examples from knowledge graphs, owl, sparql, and shacl.
+
+if you are learning ontology engineering, knowledge graphs, semantic ai, or preparing for ontology engineer interviews, this checklist will help you evaluate your ontology systematically.
+
+#ontology #ontologyengineering #knowledgegraph #knowledgegraphs #semanticai #semanticweb #owl #sparql #shacl #knowledgeengineering #aiengineering #agenticai #graphengineering #datamodeling #genai #youtubeshorts",2026-09-02T12:27:36Z,https://www.youtube.com/watch?v=-Xgv3M_WNuc,311,2,0,PT6S,Retrieved
+xcbQT5hyQZc,The 4 Things That Can Quietly Break Your AI Agent.,"We built five distinct memory types into our agentic semantic layer system — working, episodic, semantic, procedural, and meta memory. The obvious next move was to feed all of it to the Planner before every routing decision. We didn't. Here's why that would have quietly destroyed the one property that made the Planner worth building: determinism.
+
+This video covers the actual design tension — a deterministic Planner evaluating structured flags versus agents doing their own scoped memory retrieval — and why raw memory access belongs inside each agent's narrow reasoning task, never in the orchestration layer itself.
+
+Then we go one layer deeper into the three problems that show up the moment memory has to work across a real enterprise, not a demo: multi-tenant isolation (episodic memory leaking across tenant boundaries is a real, not hypothetical, failure mode), observability (aggregate confidence numbers hide exactly the slow-drift problems memory retrieval creates), and security (why every memory access needs the same scoped-credential discipline as everything else in this architecture) — and the specific fix for each.
+
+Part of the ongoing series building an AI-powered semantic layer generator, system design and architecture decisions, one honest trade-off at a time.
+
+#agenticai #aiarchitecture #systemdesign #enterpriseai #knowledgegraph #dataengineering #softwarearchitecture",2026-09-02T10:30:30Z,https://www.youtube.com/watch?v=xcbQT5hyQZc,41,1,0,PT28M24S,Retrieved
+zMUkmn2TGXg,"If You’re Struggling With Ontology Interviews, You NEED to Watch This.","If you're struggling with ontology interviews, you’re probably asking yourself:
+
+What should I study first?
+How do I approach an ontology design question?
+How do I decide what should be modeled?
+How do I connect real-world requirements with an ontology?
+And most importantly — how do I explain my design confidently in an interview?
+
+Ontology interviews are not just about memorizing definitions. Interviewers often give you a real-world scenario and expect you to think like an ontology engineer.
+
+In this short, I’ll show you how to approach one such scenario and how to think through the modelling problem step by step.
+
+If you're preparing for an ontology engineer, knowledge graph, semantic web, or AI/ML interview, this is something you don't want to miss.
+
+#ontology #ontologyengineering #ontologyinterview #knowledgegraph #semanticweb #aiinterview #aiml #knowledgegraphinterview #ontologyengineer #artificialintelligence",2026-09-01T14:30:06Z,https://www.youtube.com/watch?v=zMUkmn2TGXg,496,2,0,PT2M59S,Retrieved
+9b3uSG_fuZA,The Ontology Interview Question That Traps Beginners.,"Preparing for an Ontology Engineer, Knowledge Graph Engineer, or Semantic AI interview?
+
+In this short, I discuss a common ontology design situation that can easily trap beginners: how should you handle domain semantics versus data validation?
+
+Using a healthcare Knowledge Graph example, we look at how concepts such as Patient, Diagnosis, Treatment, and Medical Record can be modeled, and why choosing the right approach matters when designing an ontology for a real-world application.
+
+This is especially useful for interviews involving:
+
+Ontology Engineering
+Knowledge Graphs
+OWL / RDF
+SHACL
+Semantic Web
+Healthcare Knowledge Graphs
+AI / Knowledge Graph Engineering
+
+The key lesson is not simply knowing OWL or SHACL, but understanding the design trade-offs and knowing when each approach is appropriate.
+
+If you're preparing for an ontology or Knowledge Graph interview, follow the channel for more practical interview questions, architecture discussions, and real-world examples.
+
+For deeper hands-on learning, check out my Udemy courses in the channel description.
+
+#ontologyengineering #ontologyinterview #knowledgegraph #owl #shacl #rdf #semanticweb #knowledgegraphengineering #aiengineering #abhigyaailab",2026-08-31T03:22:51Z,https://www.youtube.com/watch?v=9b3uSG_fuZA,47,2,0,PT2M54S,Retrieved
+55htAtU_8DY,Want to Become an Ontology Engineer? Avoid These 5 Interview Mistakes.,"Want to become an ontology engineer?
+
+you don’t need to start your career from scratch. data engineers, software engineers, data scientists, and other tech professionals can transition into ontology engineering and knowledge graph roles.
+
+but there’s a catch — many candidates make critical mistakes when preparing for ontology and knowledge graph interviews.
+
+in this short, i cover the key mistakes to avoid and what you should focus on instead to stand out in an ontology engineering interview.
+
+if you’re planning a career in knowledge graphs, ontology engineering, semantic ai, or agentic ai, this is for you.
+
+#ontologyengineering #ontology #knowledgegraph #knowledgegraphs #semanticai #agenticai #dataengineering #aiengineering #genai #careertransition #techcareers #aijobs #knowledgeengineering #semanticweb #youtubeshorts",2026-08-30T05:57:42Z,https://www.youtube.com/watch?v=55htAtU_8DY,584,2,0,PT2M59S,Retrieved
+xLMqjjxQDzI,"How Do You Design UI for Enterprise AI Agents? 17 Screens, 9 Personas, One Architecture.","Designing an Enterprise AI product is not simply about putting a chatbot on top of an LLM.
+
+The difficult part is deciding:
+
+Who is using the system?
+What information does each persona need?
+How should that information be presented?
+And what action should the user be able to take?
+
+In this video, I walk through the UI design of an AI-powered Semantic Layer Generation platform and the thinking behind its 17-screen enterprise UI.
+
+The platform supports multiple personas, including:
+
+Platform Administrator
+Data Engineer
+Ontology Engineer
+Business Analyst
+Business User
+Reviewer
+Approver
+Governance User
+Product Manager
+
+Each persona has a different job, different information needs, and different decisions to make.
+
+For example:
+
+A Data Engineer needs metadata, schemas, lineage, profiling and data-quality information.
+
+An Ontology Engineer needs concepts, relationships, mappings and ontology evolution.
+
+A Business Analyst needs business definitions, metrics, rules and semantic relationships.
+
+A Reviewer needs evidence, confidence, validation results and AI-generated recommendations.
+
+A Product Manager needs coverage, quality, adoption, impact and overall platform insights.
+
+This creates an important product-design principle:
+
+Persona → Information → Interface → Action
+
+The video explores how this principle can be applied across:
+
+Semantic Generation
+Semantic Explorer
+Ontology Explorer
+Knowledge Graph
+Human-in-the-Loop Review
+Versioning and Impact Analysis
+Governance and Audit
+Insights and Monitoring
+AI Assistants
+
+I also discuss an important challenge in Enterprise AI UX:
+
+How do you make AI decisions understandable and trustworthy without exposing the model's private chain-of-thought?
+
+Instead of displaying hidden reasoning, the UI should provide useful evidence such as reasoning summaries, supporting sources, confidence, provenance, validation results and human decisions.
+
+The objective is not to make the UI look impressive.
+
+The objective is to make complex AI systems understandable, governed, explainable and actionable for the right person.
+
+From ontology to semantic generation, knowledge graphs and AI agents — the UI becomes the layer that connects enterprise AI capability to real business decisions.
+
+#EnterpriseAI #AIProductManagement #AIUX #AIArchitecture #AgenticAI #SemanticLayer #Ontology #KnowledgeGraph #GenerativeAI #ProductManagement #AIEngineering #EnterpriseArchitecture #UXDesign #HumanInTheLoop #AIProductDesign",2026-08-29T04:30:34Z,https://www.youtube.com/watch?v=xLMqjjxQDzI,61,1,0,PT26M17S,Retrieved
+x9kgaqaKZQY,Introduction: From Ontology to Agentic AI,"Learn more through my Udemy courses
+1. Enterprise Ontology Engineering with Protégé, RDF & OWL
+https://www.udemy.com/course/enterprise-ontology-engineering-with-protege-rdf-owl/?couponCode=CP260817G1
+
+Learn how to design and build enterprise ontologies using Protégé, RDF, RDFS, OWL, SPARQL, SKOS and ontology design patterns, with a hands-on healthcare Knowledge Graph project.
+
+Enterprise Ontology Engineering with Protégé, RDF, OWL — Udemy
+
+2. Knowledge Graph Engineering with Python
+
+https://www.udemy.com/course/knowledge-graph-engineering-with-python/?couponCode=CP260817G1
+
+Go beyond ontology modeling and build ontology-based Knowledge Graph applications using Python, Neo4j, SHACL, APIs and semantic reasoning.
+
+Knowledge Graph Engineering with Python — Udemy
+
+3. From Knowledge Graph Assistant to Agentic AI with LangGraph
+
+https://www.udemy.com/course/from-knowledge-graph-assistant-to-agentic-ai-with-langgraph/?couponCode=CP260817G1
+
+Take the next step into enterprise Agentic AI by building multi-agent systems with LangGraph, Knowledge Graphs, RAG, Neo4j, memory, human-in-the-loop, observability and evaluation.
+
+From Knowledge Graph Assistant to Agentic AI with LangGraph — Udemy
+
+Want to build an AI application?
+
+If you are working on an AI, Knowledge Graph, RAG, Agentic AI or enterprise AI application and would like to discuss the architecture or implementation, feel free to reach out.
+
+Email: abhigyaailab@gmail.com
+
+You can contact me for:
+
+AI application development
+Agentic AI systems
+Knowledge Graph applications
+RAG systems
+Ontology and semantic solutions
+Enterprise AI architecture
+Custom AI engineering projects
+
+If you found this video useful, subscribe to Abhigya AI Lab for more practical content on AI Engineering, Knowledge Graphs, RAG, Agentic AI and enterprise AI architecture.
+
+#HealthcareOntology #OntologyEngineering #Protégé #OWL #KnowledgeGraph #SemanticWeb #KnowledgeGraphEngineering #AIEngineering #AgenticAI #AbhigyaAILab",2026-08-28T04:30:22Z,https://www.youtube.com/watch?v=x9kgaqaKZQY,165,1,0,PT40M25S,Retrieved
+0iZyct2K4E0,"Preview of Planner, Ontology, Query & validation and RBAC + Multitenancy","Learn more through my Udemy courses
+1. Enterprise Ontology Engineering with Protégé, RDF & OWL
+
+https://www.udemy.com/course/enterprise-ontology-engineering-with-protege-rdf-owl/?couponCode=PROMO549
+
+Learn how to design and build enterprise ontologies using Protégé, RDF, RDFS, OWL, SPARQL, SKOS and ontology design patterns, with a hands-on healthcare Knowledge Graph project.
+
+Enterprise Ontology Engineering with Protégé, RDF, OWL — Udemy
+
+2. Knowledge Graph Engineering with Python
+
+https://www.udemy.com/course/knowledge-graph-engineering-with-python/?couponCode=PROMO649
+
+Go beyond ontology modeling and build ontology-based Knowledge Graph applications using Python, Neo4j, SHACL, APIs and semantic reasoning.
+
+Knowledge Graph Engineering with Python — Udemy
+
+3. From Knowledge Graph Assistant to Agentic AI with LangGraph
+
+https://www.udemy.com/course/from-knowledge-graph-assistant-to-agentic-ai-with-langgraph/?couponCode=PROMO649
+
+Take the next step into enterprise Agentic AI by building multi-agent systems with LangGraph, Knowledge Graphs, RAG, Neo4j, memory, human-in-the-loop, observability and evaluation.
+
+From Knowledge Graph Assistant to Agentic AI with LangGraph — Udemy
+
+Want to build an AI application?
+
+If you are working on an AI, Knowledge Graph, RAG, Agentic AI or enterprise AI application and would like to discuss the architecture or implementation, feel free to reach out.
+
+Email: abhigyaailab@gmail.com
+
+You can contact me for:
+
+AI application development
+Agentic AI systems
+Knowledge Graph applications
+RAG systems
+Ontology and semantic solutions
+Enterprise AI architecture
+Custom AI engineering projects
+
+If you found this video useful, subscribe to Abhigya AI Lab for more practical content on AI Engineering, Knowledge Graphs, RAG, Agentic AI and enterprise AI architecture.
+
+#HealthcareOntology #OntologyEngineering #Protégé #OWL #KnowledgeGraph #SemanticWeb #KnowledgeGraphEngineering #AIEngineering #AgenticAI #AbhigyaAILab",2026-08-27T04:30:24Z,https://www.youtube.com/watch?v=0iZyct2K4E0,65,1,0,PT52M19S,Retrieved
+KETvNNzYR4g,Why Smart AI Agents Need More Than LLMs. #ontology #aiagents #protégé,"In this video, I'll walk through the practical process of creating a healthcare ontology using Protégé and introduce the key concepts you need to understand when designing an ontology for a real-world domain.
+
+We will look at how to move from a healthcare domain problem to an initial ontology model and how different Semantic Web concepts fit together.
+
+In this walkthrough, we'll explore:
+
+What is a healthcare ontology?
+How to identify important domain concepts and classes
+How to create classes in Protégé
+How to organize classes and subclasses
+Object properties — how entities are related to each other
+Data properties — how attributes are represented
+Individuals / instances
+Domains and ranges
+Ontology restrictions and constraints
+RDF and RDF triples
+RDFS and semantic relationships
+OWL and ontology reasoning
+SKOS and taxonomy / controlled vocabulary concepts
+How these concepts fit together to represent healthcare knowledge
+How an ontology can become the foundation for a Knowledge Graph
+How ontology engineering can later support AI, RAG and Agentic AI applications
+
+The important point is that an ontology is not simply a collection of classes. It provides a structured representation of domain concepts, relationships, constraints and meaning that can later be used by Knowledge Graphs and AI systems.
+
+This video is an introduction to the practical ontology-engineering workflow. If you want to go deeper and actually build enterprise-grade ontology and Knowledge Graph applications, I've created a series of project-based courses.
+
+Learn more through my Udemy courses
+1. Enterprise Ontology Engineering with Protégé, RDF & OWL
+
+https://www.udemy.com/course/enterprise-ontology-engineering-with-protege-rdf-owl/?couponCode=MT260727G2
+
+Learn how to design and build enterprise ontologies using Protégé, RDF, RDFS, OWL, SPARQL, SKOS and ontology design patterns, with a hands-on healthcare Knowledge Graph project.
+
+Enterprise Ontology Engineering with Protégé, RDF, OWL — Udemy
+
+2. Knowledge Graph Engineering with Python
+
+https://www.udemy.com/course/knowledge-graph-engineering-with-python/?couponCode=CP260817G1
+
+Go beyond ontology modeling and build ontology-based Knowledge Graph applications using Python, Neo4j, SHACL, APIs and semantic reasoning.
+
+Knowledge Graph Engineering with Python — Udemy
+
+3. From Knowledge Graph Assistant to Agentic AI with LangGraph
+
+https://www.udemy.com/course/from-knowledge-graph-assistant-to-agentic-ai-with-langgraph/?couponCode=CP260817G1
+
+Take the next step into enterprise Agentic AI by building multi-agent systems with LangGraph, Knowledge Graphs, RAG, Neo4j, memory, human-in-the-loop, observability and evaluation.
+
+From Knowledge Graph Assistant to Agentic AI with LangGraph — Udemy
+
+Want to build an AI application?
+
+If you are working on an AI, Knowledge Graph, RAG, Agentic AI or enterprise AI application and would like to discuss the architecture or implementation, feel free to reach out.
+
+Email: abhigyaailab@gmail.com
+
+You can contact me for:
+
+AI application development
+Agentic AI systems
+Knowledge Graph applications
+RAG systems
+Ontology and semantic solutions
+Enterprise AI architecture
+Custom AI engineering projects
+
+If you found this video useful, subscribe to Abhigya AI Lab for more practical content on AI Engineering, Knowledge Graphs, RAG, Agentic AI and enterprise AI architecture.
+
+#HealthcareOntology #OntologyEngineering #Protégé #OWL #KnowledgeGraph #SemanticWeb #KnowledgeGraphEngineering #AIEngineering #AgenticAI #AbhigyaAILab",2026-08-26T04:33:32Z,https://www.youtube.com/watch?v=KETvNNzYR4g,35,1,0,PT56M53S,Retrieved
+fwx2r3Dh5Ag,The LangGraph Database Problem Nobody Talks About?#langgraph #LLM #GenerativeAI #LangChain,"Your LangGraph agent works perfectly in development. But what happens after weeks or months in production?
+
+If you're using AsyncPostgresSaver, your threads can accumulate a large number of checkpoints. And if your graph state contains messages, retrieved documents, SQL results, or tool outputs, individual checkpoints can become large too.
+
+In this Short, I explain:
+
+Why LangGraph checkpoint bloat happens
+Why AsyncPostgresSaver can accumulate checkpoint data
+Why blindly deleting old PostgreSQL rows can be dangerous
+How to keep checkpoint state small
+When to move data outside the checkpoint
+How thread retention and lifecycle management help
+Where safe checkpoint pruning fits into the architecture
+
+The key principle:
+
+A LangGraph checkpoint is a recovery mechanism — not your permanent database.
+
+#LangGraph #AgenticAI #PostgreSQL #AIEngineering #LLM #GenerativeAI #LangChain",2026-08-24T15:30:19Z,https://www.youtube.com/watch?v=fwx2r3Dh5Ag,37,2,0,PT2M58S,Retrieved
+kJsiZvUy1fQ,10 Years of AI Engineering in 150 Seconds,"After 10 years of engineering, here are the lessons I wish every AI engineer knew before building production AI systems.
+
+The biggest lesson? AI engineering isn't about using more LLMs. It's about knowing when NOT to use them.
+
+Rules vs LLMs.
+Workflows vs multi-agents.
+Vector search vs knowledge graphs.
+Context, state, evaluation, observability and guardrails.
+
+What works in a demo can fail badly in production.
+
+Follow Abhigya AI Lab for practical lessons on production-grade AI engineering.
+
+
+#AIEngineering #AgenticAI #AIAgents #GenerativeAI #SystemDesign #LLM #AIArchitecture #ProductionAI #AIEngineering #AbhigyaAILab",2026-08-24T09:35:39Z,https://www.youtube.com/watch?v=kJsiZvUy1fQ,36,2,0,PT2M44S,Retrieved
+P6Qxj5UXYXM,AI Agent System designD9: Production Agentic AI.  #Kubernetes #EKS #vLLM #Ollama #SystemDesign,"Deploying a traditional ML model is very different from deploying an enterprise Agentic AI system.
+
+In Day 9 of my 10-Day Principal AI Architect Series, we move from the architecture whiteboard to production deployment using our Semantic Layer Generator as the running case study.
+
+In this session, we cover:
+
+Traditional ML/DL deployment vs Agentic AI deployment
+Why an LLM is only one component of an Agentic AI system
+Deploying Metadata, Ontology and Governance services independently
+Kubernetes / EKS architecture
+CPU vs GPU node pools
+How GPU workloads are scheduled in Kubernetes
+Ollama vs vLLM for LLM serving
+vLLM, continuous batching and efficient GPU utilization
+Edge → API Gateway → EKS request flow
+Autoscaling based on the actual bottleneck
+Kafka, state and workflow recovery
+Offline AI evaluation using Pytest
+Golden datasets and regression testing
+Evaluation metrics for Metadata, Ontology and Governance services
+CI/CD quality gates for AI systems
+Observability, tracing and agent-level monitoring
+Security, secrets and multi-tenant isolation
+Rollback, resilience and disaster recovery
+Production-readiness checklist
+
+One of the key ideas in this session:
+
+A model can be deployed. An agentic system has to be operated.
+
+The goal is to understand how compute, LLM inference, orchestration, state, events, tools, evaluation and observability come together to create a production-grade enterprise AI platform.
+
+Day 10 will bring the complete Semantic Layer Generator architecture together end-to-end.",2026-08-23T08:07:39Z,https://www.youtube.com/watch?v=P6Qxj5UXYXM,53,1,0,PT32M43S,Retrieved
+Q9KNf99kbd4,"The AI Agent Worked in Dev, Failed in Production: A Real Architecture Case Study Part-3","In this 4-part series, I break down a real-world AI agent failure that cost a company days of incorrect business reporting and nearly resulted in major decision-making errors. The story begins with an AI-powered data analytics agent that converted natural language questions into SQL queries and returned answers directly from enterprise databases. Everything worked perfectly in development. Every test passed. The team was confident enough to deploy directly to production.
+
+Three days later, their revenue numbers were off by nearly 40%.
+
+The root cause was not a bug in the code. It was an architectural failure.
+
+Through this series, I walk through the complete investigation, the root causes that led to the failure, and the production-grade architecture that ultimately solved the problem. More importantly, I explain why AI agents fail differently from traditional software systems. Traditional systems usually fail loudly with errors and crashes. AI agents often fail convincingly by returning clean, professional, and completely incorrect answers.
+
+Day 1 introduces the consulting engagement and the production incident. We analyze how a Text-to-SQL agent selected the wrong database tables because it lacked awareness of schema complexity and business context. The lesson is simple: an agent that appears intelligent can still be operating with incomplete information.
+
+Day 2 focuses on environment strategy. Many teams believe development environments should mirror production. In reality, development environments are meant for rapid iteration and logic development. The real problem is the absence of a proper staging environment. I explain how a production-like staging environment exposed failures that were completely hidden during development and why every AI system should have a validation stage before deployment.
+
+Day 3 introduces the concept of a structured data context layer. Instead of providing the agent with a raw list of table names, we provide domain information, business descriptions, ownership metadata, authority indicators, and usage boundaries. The result is that the same agent suddenly makes significantly better decisions without changing the underlying model. The discussion covers semantic retrieval architecture, data intelligence layers, contextual authorization, semantic query planning, and enterprise metadata-driven AI systems.
+
+Day 4 focuses on reasoning-level validation. Even with the correct environment and context, AI systems can still generate incorrect SQL queries. To address this, I introduce a validation node inside a LangGraph workflow. This node acts as an internal critic that evaluates generated queries before execution. It checks domain alignment, business metric definitions, table authority, scope correctness, time filters, and query intent. This additional layer prevented multiple incorrect responses from reaching end users.
+
+Day 5 brings everything together into a complete production architecture. We discuss how development, staging, and production environments interact and how context loading, query generation, validation, execution, and response formatting form a reliable AI data pipeline. The discussion emphasizes that environments are not infrastructure decisions alone—they are control systems designed to build trust.
+
+This series is particularly relevant for AI Engineers, Software Architects, Data Engineers, Platform Engineers, Product Teams, and anyone building agentic AI systems that interact with enterprise data. Whether you are building Text-to-SQL systems, AI search engines, RAG applications, knowledge graph retrieval systems, FinOps assistants, business intelligence copilots.
+
+Topics Covered:
+
+• Agentic AI Architecture
+• LangGraph Workflows
+• Production AI Systems
+• Text-to-SQL Agents
+• AI Search Architecture
+• Retrieval-Augmented Generation (RAG)
+• Knowledge Graph Integration
+• Semantic Retrieval
+• Data Intelligence Layer
+• Context Engineering
+• Contextual Authorization
+• Semantic Query Planning
+• AI Governance
+• Enterprise Metadata Management
+• Staging Environment Design
+• Production Readiness
+• AI Validation Frameworks
+• Agent Reliability Engineering
+• AI Observability
+• Enterprise AI Architecture
+• Production Failure Analysis
+• AI System Design
+• LLM Application Engineering
+
+If you're building AI systems for real users, real customers, and real business decisions, this series will help you understand why successful AI products require much more than good prompts and powerful models. Production trust is earned through architecture, validation, governance, and control systems.
+
+#AgenticAI
+#LangGraph
+#AIEngineering
+#GenerativeAI
+#ProductionAI
+#TextToSQL
+#RAG
+#KnowledgeGraph
+#AISearch
+#EnterpriseAI
+#AIArchitecture
+#LLM
+#ContextEngineering
+#AIGovernance
+#SemanticRetrieval
+#DataEngineering
+#SoftwareArchitecture
+#MLOps
+#AIAgents
+#ArtificialIntelligence
+#FinOpsAI
+#PromptEngineering
+#AIInfrastructure
+#SystemDesign
+#AbhigyaAILab",2026-08-22T15:15:11Z,https://www.youtube.com/watch?v=Q9KNf99kbd4,121,0,0,PT18M5S,Retrieved
+lNkDU0-83hc,AI Agent System Design: D8 — Your AI Architecture Will Become Technical Debt. How to Prevent It,"Most AI agent architectures look impressive on a whiteboard.
+
+Planner → Agents → Kafka → MCP → Vector DB → Knowledge Graph.
+
+But a diagram is not enough.
+
+An architecture can be technically correct today and still become technical debt six months later.
+
+In Day 8 of my 10-Day Principal AI Architect Series, I take the AI-powered Semantic Layer Generator we've been designing throughout the series and examine what makes the architecture actually maintainable and evolvable.
+
+We go beyond drawing boxes and look at the mechanisms that make enterprise architecture work in production.
+
+
+A mature enterprise AI platform should have:
+
+Clear ownership boundaries
+Explicit API and event contracts
+Schema versioning and compatibility rules
+Consumer-driven contract testing
+A deterministic Planner
+Policy-as-code instead of growing if/else logic
+Circuit breakers for external dependencies
+Bulkheads for resource isolation
+Graceful degradation
+Replayable event history
+Traceable AI decisions
+Independent service deployment
+
+The central idea:
+
+A diagram is not an architecture until its boundaries, contracts, failure behavior, and evolution mechanisms are enforceable.
+
+This is the eighth part of a 10-day series where we progressively design an enterprise-grade AI-powered Semantic Layer Generator from first principles.
+
+Series
+
+Day 1 — Why Enterprise AI Pilots Fail
+Day 2 — Capability Discovery Framework
+Day 3 — Domain-Driven Design for Agentic AI
+Day 4 — State Architecture & Ownership
+Day 5 — Event-Driven Agentic AI & Replay
+Day 6 — Communication Architecture, MCP & Tool Registries
+Day 7 — Planner, Memory & Hybrid Retrieval
+Day 8 — Enterprise Architecture, Contracts & Technical Debt
+Day 9 — Production Deployment & Infrastructure
+Day 10 — Complete End-to-End System
+
+Subscribe to follow the complete architecture build.
+
+#AgenticAI #AIArchitecture #EnterpriseAI #SystemDesign #TechnicalDebt #MLOps #LLMOps #PrincipalArchitect #DistributedSystems",2026-08-21T16:12:06Z,https://www.youtube.com/watch?v=lNkDU0-83hc,601,4,0,PT24M8S,Retrieved
+_C1u_TFgk44,"The AI Agent Worked in Dev, Failed in Production: A Real Architecture Case Study Part-2","In this 4-part series, I break down a real-world AI agent failure that cost a company days of incorrect business reporting and nearly resulted in major decision-making errors. The story begins with an AI-powered data analytics agent that converted natural language questions into SQL queries and returned answers directly from enterprise databases. Everything worked perfectly in development. Every test passed. The team was confident enough to deploy directly to production.
+
+Three days later, their revenue numbers were off by nearly 40%.
+
+The root cause was not a bug in the code. It was an architectural failure.
+
+Through this series, I walk through the complete investigation, the root causes that led to the failure, and the production-grade architecture that ultimately solved the problem. More importantly, I explain why AI agents fail differently from traditional software systems. Traditional systems usually fail loudly with errors and crashes. AI agents often fail convincingly by returning clean, professional, and completely incorrect answers.
+
+Day 1 introduces the consulting engagement and the production incident. We analyze how a Text-to-SQL agent selected the wrong database tables because it lacked awareness of schema complexity and business context. The lesson is simple: an agent that appears intelligent can still be operating with incomplete information.
+
+Day 2 focuses on environment strategy. Many teams believe development environments should mirror production. In reality, development environments are meant for rapid iteration and logic development. The real problem is the absence of a proper staging environment. I explain how a production-like staging environment exposed failures that were completely hidden during development and why every AI system should have a validation stage before deployment.
+
+Day 3 introduces the concept of a structured data context layer. Instead of providing the agent with a raw list of table names, we provide domain information, business descriptions, ownership metadata, authority indicators, and usage boundaries. The result is that the same agent suddenly makes significantly better decisions without changing the underlying model. The discussion covers semantic retrieval architecture, data intelligence layers, contextual authorization, semantic query planning, and enterprise metadata-driven AI systems.
+
+Day 4 focuses on reasoning-level validation. Even with the correct environment and context, AI systems can still generate incorrect SQL queries. To address this, I introduce a validation node inside a LangGraph workflow. This node acts as an internal critic that evaluates generated queries before execution. It checks domain alignment, business metric definitions, table authority, scope correctness, time filters, and query intent. This additional layer prevented multiple incorrect responses from reaching end users.
+
+Day 5 brings everything together into a complete production architecture. We discuss how development, staging, and production environments interact and how context loading, query generation, validation, execution, and response formatting form a reliable AI data pipeline. The discussion emphasizes that environments are not infrastructure decisions alone—they are control systems designed to build trust.
+
+This series is particularly relevant for AI Engineers, Software Architects, Data Engineers, Platform Engineers, Product Teams, and anyone building agentic AI systems that interact with enterprise data. Whether you are building Text-to-SQL systems, AI search engines, RAG applications, knowledge graph retrieval systems, FinOps assistants, business intelligence copilots.
+
+Topics Covered:
+
+• Agentic AI Architecture
+• LangGraph Workflows
+• Production AI Systems
+• Text-to-SQL Agents
+• AI Search Architecture
+• Retrieval-Augmented Generation (RAG)
+• Knowledge Graph Integration
+• Semantic Retrieval
+• Data Intelligence Layer
+• Context Engineering
+• Contextual Authorization
+• Semantic Query Planning
+• AI Governance
+• Enterprise Metadata Management
+• Staging Environment Design
+• Production Readiness
+• AI Validation Frameworks
+• Agent Reliability Engineering
+• AI Observability
+• Enterprise AI Architecture
+• Production Failure Analysis
+• AI System Design
+• LLM Application Engineering
+
+If you're building AI systems for real users, real customers, and real business decisions, this series will help you understand why successful AI products require much more than good prompts and powerful models. Production trust is earned through architecture, validation, governance, and control systems.
+
+#AgenticAI
+#LangGraph
+#AIEngineering
+#GenerativeAI
+#ProductionAI
+#TextToSQL
+#RAG
+#KnowledgeGraph
+#AISearch
+#EnterpriseAI
+#AIArchitecture
+#LLM
+#ContextEngineering
+#AIGovernance
+#SemanticRetrieval
+#DataEngineering
+#SoftwareArchitecture
+#MLOps
+#AIAgents
+#ArtificialIntelligence
+#FinOpsAI
+#PromptEngineering
+#AIInfrastructure
+#SystemDesign
+#AbhigyaAILab",2026-08-19T14:30:30Z,https://www.youtube.com/watch?v=_C1u_TFgk44,18,1,0,PT36M19S,Retrieved
+ykMeeZHf8zE,"AI Agent System Design D7 — ""Workflow Orchestration: The Planner, Memory, and Hybrid Retrieval""","Unpopular opinion in agentic AI circles: your Planner probably shouldn't be ""reasoning"" about what to do next. It should be evaluating deterministic rules against the outputs of agents that reason.
+
+Day 7 of my 10-day series covers workflow orchestration — the Planner, three distinct types of memory (working, episodic, long-term semantic) each with a different retrieval pattern, and why hybrid retrieval — combining Neo4j graph traversal with vector similarity search — beats pure vector search for grounding agent reasoning in real enterprise structure.
+
+Full end-to-end trace through the semantic layer pipeline in the video.
+
+Day 8 tomorrow: the complete high-level architecture diagram.
+
+#AgenticAI #AIArchitecture #RAG #SystemDesign #PrincipalArchitect",2026-08-18T05:02:45Z,https://www.youtube.com/watch?v=ykMeeZHf8zE,45,2,0,PT16M34S,Retrieved
+1D8YXlpeR34,"AI Agent system Design D6 — ""Communication Architecture: Sync vs Async, MCP, and Tool Registries""","""Should this be synchronous or event-driven?"" isn't a system-wide decision — it's a per-interaction one, and getting it wrong in either direction is expensive.
+
+Day 6 of my 10-day series covers communication architecture: when to use sync calls vs async events, why Model Context Protocol exists (it's not hype, it solves a real integration-sprawl problem), and why tool registries stop your agents from hardcoding what they're allowed to call — which is also a real security boundary, not just a convenience.
+
+Full call trace through the semantic layer system in the video, link in comments.
+
+Day 7 tomorrow: the Planner, memory design, and hybrid retrieval.
+
+#MCP #AgenticAI #AIArchitecture #SystemDesign #PrincipalArchitect",2026-08-17T05:37:28Z,https://www.youtube.com/watch?v=1D8YXlpeR34,21,2,0,PT13M2S,Retrieved
+gCpnd4OSnLc,"AI Agent System Design D5 — ""Event-Driven Agentic AI""","Week 1 is done. Here's the thread: problem → capability discovery → domain model → state architecture → event architecture, each one built on the last, using one real use case throughout — an AI-powered semantic layer generator.
+
+Day 5, just posted: why agentic AI workflows should be event-driven, not chained synchronous calls — and specifically why Kafka's replay capability matters more here than almost anywhere else. When your ontology changes, or you upgrade an agent's model, replay turns ""reprocess everything"" from a custom one-off script into a first-class operation.
+
+Week 1 videos are linked in the comments in order. Week 2 starts Monday: communication architecture, workflow orchestration, and by Day 8 the full high-level architecture comes together.
+
+#EventDrivenArchitecture #AgenticAI #Kafka #AIArchitecture #PrincipalArchitect",2026-08-14T08:54:20Z,https://www.youtube.com/watch?v=gCpnd4OSnLc,17,1,0,PT8M56S,Retrieved
+OIlpwYCzC9Y,Semantic Layer Generator- Agentic AI system,"https://youtu.be/otOYRppAFmA
+
+#DomainDrivenDesign #AgenticAI #AIArchitecture #SystemDesign #PrincipalArchitect",2026-08-13T15:30:12Z,https://www.youtube.com/watch?v=OIlpwYCzC9Y,14,0,1,PT2M59S,Retrieved
+ooo0qG4y_WA,"DAY 4 — ""State Architecture: Why LangGraph's StateGraph Exists (And How to Design One Yourself)""","""Restart from where?"" is the question that separates a script from a system.
+
+Day 4 of my 10-day series covers state architecture for agentic AI — why LangGraph's StateGraph exists, how to design a state ownership table (owner / readers / writers / lifecycle / storage) for every category of state in a multi-agent system, and how checkpointing turns ""the workflow crashed"" from an incident into a non-event.
+
+This is also where the ""what goes into Neo4j vs. a vector DB vs. Redis"" question finally gets a real answer — it falls straight out of the state ownership table once you build it properly.
+
+Day 5 tomorrow: event-driven architecture for AI workflows, and why replay matters more than people think.
+
+#AIArchitecture #AgenticAI #LangGraph #SystemDesign #PrincipalArchitect
+
+https://youtu.be/iaqicuVNOZU
+https://youtu.be/ORlotHxu9lw
+https://youtu.be/otOYRppAFmA",2026-08-13T06:34:38Z,https://www.youtube.com/watch?v=ooo0qG4y_WA,21,2,0,PT27M27S,Retrieved
+otOYRppAFmA,"Domain-Driven Design for Agentic AI: Bounded Contexts, Aggregates, Value Objects","Most multi-agent systems fail quietly for a boring reason: nobody drew the boundaries.
+
+Day 3 of my 10-day series applies Domain-Driven Design — bounded contexts, aggregates, value objects — to a real agentic AI system. Twenty-year-old software design principles, almost never applied properly to LLM-based architectures, and they solve exactly the problems agentic systems are struggling with right now: shared state chaos, unclear ownership, and unauditable changes.
+
+The aggregate design in this video is also the direct answer to ""how do you design shared state for multi-agent systems"" — a question I've been asked in every architecture interview this year.
+
+Day 4 tomorrow: turning this domain model into a real state architecture with LangGraph and checkpointing.
+
+#DomainDrivenDesign #AgenticAI #AIArchitecture #SystemDesign #PrincipalArchitect",2026-08-12T04:57:11Z,https://www.youtube.com/watch?v=otOYRppAFmA,39,1,2,PT18M23S,Retrieved
+JpK5BuuJQp0,"Simple RAG vs Complex knowledge graph, ""Which One Do You Need?""","Simple RAG vs Complex Knowledge Graph – Which One Do You Need?
+
+This course helps AI engineers and architects understand when a simple RAG architecture is sufficient and when a Knowledge Graph becomes essential for solving complex enterprise problems. Through practical examples, you'll learn the trade-offs between retrieval-based systems and graph-based reasoning, covering accuracy, explainability, scalability, and implementation complexity. By the end, you'll be able to choose the right architecture for your AI, search, analytics, and agentic AI applications. #RAG #KnowledgeGraph #GraphRAG #AgenticAI #AIArchitecture",2026-08-11T14:30:04Z,https://www.youtube.com/watch?v=JpK5BuuJQp0,4,0,0,PT27M29S,Retrieved
+ORlotHxu9lw,The Capability Discovery Framework: How to Decide What Actually Needs an AI Agent,"""Should this be an AI agent?"" is the wrong first question. The right question is a four-part test I run on every step of a manual process before deciding anything.
+
+Day 2 of my 10-day series is live — the Capability Discovery Framework, applied live to a real 10-step enterprise data pipeline. By the end, only 3 of 10 steps needed an actual LLM call. The rest stayed deterministic code or became vector similarity search.
+
+This is the framework I'd want any AI architect I hire to be able to run in an interview, on a use case they've never seen. Full breakdown in the video — link in comments.
+
+Day 3 tomorrow: Domain-Driven Design for agentic AI systems.
+
+#AIArchitecture #AgenticAI #SystemDesign #DataGovernance #PrincipalArchitect",2026-08-11T04:30:14Z,https://www.youtube.com/watch?v=ORlotHxu9lw,27,2,0,PT19M41S,Retrieved
+iaqicuVNOZU,Why 80% of Enterprise AI Projects Fail (And What Architecture Has to Do With It),"Day 1 of my 10-day series on designing a real enterprise agentic AI system (an AI-powered semantic layer generator) is live. We cover: → The 5 real reasons enterprise AI projects fail → Why ""chatbot"" and ""enterprise AI"" are not the same engineering problem → The one architecture principle that separates systems that survive from systems that get switched off.
+
+Day 2 tomorrow: the Capability Discovery Framework — how to actually decide what should be an AI agent vs. what should stay deterministic code.
+
+#AIArchitecture #AgenticAI #EnterpriseAI #DataGovernance #PrincipalArchitect",2026-08-10T02:30:34Z,https://www.youtube.com/watch?v=iaqicuVNOZU,28,1,0,PT23M15S,Retrieved
+hTqL3W0QFvU,Enterprise Ontology Engineering with Protege #agenticai #protégé #ontology #sparql #rdf #owl,"https://www.udemy.com/course/enterprise-ontology-engineering-with-protege-rdf-owl/?src=sac&kw=enterprise+ontology&couponCode=MT260803G1
+
+#ontology #owl #rdf #protege #apachejena",2026-08-03T18:30:17Z,https://www.youtube.com/watch?v=hTqL3W0QFvU,68,0,0,PT2M59S,Retrieved
+QppEnnSdJtc,"Ontology → Knowledge Graph Assistant → Agentic AI with LangGraph,  that extends to any domain.","I've reviewed AI applications with strong models, fine-tuned, running efficient prompts — good harness engineering: static + dynamic JSON context, Mem0 for cross-session user memory, Redis for session state, a scratchpad for in-session reasoning.
+
+Still plateaued. Here's why: every one of those layers stores facts. None of them enforce the relationships between those facts. So the model ends up inferring relationships at inference time — probabilistically, differently each run.
+
+The fix wasn't a better model or a cleverer prompt. It was moving relationships out of the context window and into a formal ontology, enforced by a real graph database — deterministic validation, multi-hop queries instead of inferred connections, and a graph-backed memory instead of a growing JSON blob.
+
+That's the shift from context engineering to knowledge engineering — and it's what I teach across my 3-part course bundle: Ontology & RDF/SPARQL/SHACL → Knowledge Graph Assistant → Agentic AI with LangGraph, built end to end on a real healthcare system, with an architecture that extends to any domain.
+
+🔗 Links https://www.udemy.com/course/enterprise-ontology-engineering-with-protege-rdf-owl/?src=sac&kw=enterprise+ontology&couponCode=MT260803G1
+
+https://www.udemy.com/course/knowledge-graph-engineering-with-python/?couponCode=MT260803G1
+
+https://www.udemy.com/course/from-knowledge-graph-assistant-to-agentic-ai-with-langgraph/?couponCode=MT260803G1
+
+#AIAgents #KnowledgeGraph #LangGraph #Ontology #ContextEngineering #Mem0 #Neo4j #AgenticAI #GenerativeAI #Udemy",2026-08-03T15:10:06Z,https://www.youtube.com/watch?v=QppEnnSdJtc,34,2,0,PT10M6S,Retrieved
+nE71_n2uB_A,How to evaluate an AI search engine with statistical rigor: Design and Implementation steps. Part-2,"In this video, we explore how to evaluate AI Search Engines, RAG systems, and Knowledge Graph retrieval systems with statistical rigor instead of relying solely on metrics such as Recall@K, NDCG, MRR, and MAP.
+
+Many AI teams compare two retrieval systems and make deployment decisions based on a small metric improvement. For example, if Version A achieves an NDCG score of 0.82 and Version B achieves 0.84, the immediate conclusion is often that Version B is better. However, an important question remains unanswered: Is the improvement real, or is it simply a result of randomness in the evaluation dataset?
+
+This video introduces a more scientific approach to AI Search evaluation using confidence intervals, bootstrap resampling, significance testing, and variance decomposition.
+
+We begin by discussing the limitations of traditional evaluation metrics and why a single metric value is insufficient for production-grade AI systems. We then explore confidence intervals and how they help quantify uncertainty around retrieval metrics. You will learn how standard error, confidence levels, alpha values, and hypothesis testing are used to determine whether observed improvements are statistically significant.
+
+Next, we dive into bootstrap resampling, a widely used statistical technique for estimating uncertainty from a fixed evaluation dataset. Starting with a dataset of 500 evaluation queries, we demonstrate how thousands of bootstrap samples can be generated through sampling with replacement and how these samples are used to build a metric distribution and calculate confidence intervals. We also clarify a common misconception: bootstrap does not reduce noise; it measures uncertainty and helps estimate the stability of evaluation metrics.
+
+The discussion then moves to significance testing. We explain how p-values, confidence intervals, and hypothesis testing work together to determine whether a new retrieval system is genuinely better than an existing one. Concepts such as null hypothesis, alternative hypothesis, Type-I error, and significance thresholds are explained with practical examples from AI Search evaluation.
+
+One of the key topics covered in this video is variance decomposition. While confidence intervals tell us how uncertain a metric is, variance decomposition helps explain why the uncertainty exists. We examine how different factors contribute to overall performance variation, including query difficulty, retriever behavior, LLM variability, evaluator inconsistency, and residual noise. Using Easy, Medium, and Hard query categories, we show how ANOVA-style analysis can identify the dominant sources of evaluation instability.
+
+The video also covers dataset balancing strategies and explains why evaluation datasets should contain a representative distribution of query complexities. We discuss how an evaluation dataset dominated by easy queries can produce misleading results and how balancing the dataset can improve the reliability of retrieval evaluations.
+
+Finally, we walk through the architecture of a statistically rigorous AI evaluation platform. The discussion includes dataset management, evaluation runners, metric computation, bootstrap analysis, confidence interval estimation, significance testing, variance decomposition, experiment tracking, reporting, and dashboard generation. We also review a GitHub repository structure that can be used to implement such a framework for AI Search, RAG, Knowledge Graph, and enterprise AI applications.
+
+By the end of this video, you will understand how mature AI organizations move beyond simple benchmark scores and build evaluation systems that can distinguish genuine improvements from evaluation noise. Whether you are working on AI Search, Retrieval-Augmented Generation, Agentic AI systems, Knowledge Graph retrieval, FinOps copilots, or enterprise AI applications, these techniques will help you design more reliable and scientifically sound evaluation pipelines.
+
+Topics Covered:
+
+* AI Search Evaluation
+* RAG Evaluation
+* Knowledge Graph Retrieval Evaluation
+* Confidence Intervals
+* Standard Error
+* Bootstrap Resampling
+* Hypothesis Testing
+* P-Values
+* Statistical Significance
+* Variance Decomposition
+* ANOVA Concepts
+* Query Difficulty Analysis
+* Retriever Evaluation
+* LLM Evaluation
+* Experiment Tracking
+* Evaluation Platform Design
+* AI Engineering Best Practices
+
+#AISearch
+#RAG
+#KnowledgeGraph
+#AgenticAI
+#AIEngineering
+#LLM
+#RetrievalAugmentedGeneration
+#SearchEvaluation
+#BootstrapSampling
+#ConfidenceIntervals
+#HypothesisTesting
+#PValue
+#Statistics
+#MachineLearning
+#MLOps
+#AIEvaluation
+#InformationRetrieval
+#NDCG
+#RecallAtK
+#ProductionAI",2026-07-23T14:30:20Z,https://www.youtube.com/watch?v=nE71_n2uB_A,6,1,0,PT30M5S,Retrieved
+Fo9s95AZ3I4,How to evaluate an AI search engine with statistical rigor: Design and Implementation steps. Part-1,"In this video, we explore how to evaluate AI Search Engines, RAG systems, and Knowledge Graph retrieval systems with statistical rigor instead of relying solely on metrics such as Recall@K, NDCG, MRR, and MAP.
+
+Many AI teams compare two retrieval systems and make deployment decisions based on a small metric improvement. For example, if Version A achieves an NDCG score of 0.82 and Version B achieves 0.84, the immediate conclusion is often that Version B is better. However, an important question remains unanswered: Is the improvement real, or is it simply a result of randomness in the evaluation dataset?
+
+This video introduces a more scientific approach to AI Search evaluation using confidence intervals, bootstrap resampling, significance testing, and variance decomposition.
+
+We begin by discussing the limitations of traditional evaluation metrics and why a single metric value is insufficient for production-grade AI systems. We then explore confidence intervals and how they help quantify uncertainty around retrieval metrics. You will learn how standard error, confidence levels, alpha values, and hypothesis testing are used to determine whether observed improvements are statistically significant.
+
+Next, we dive into bootstrap resampling, a widely used statistical technique for estimating uncertainty from a fixed evaluation dataset. Starting with a dataset of 500 evaluation queries, we demonstrate how thousands of bootstrap samples can be generated through sampling with replacement and how these samples are used to build a metric distribution and calculate confidence intervals. We also clarify a common misconception: bootstrap does not reduce noise; it measures uncertainty and helps estimate the stability of evaluation metrics.
+
+The discussion then moves to significance testing. We explain how p-values, confidence intervals, and hypothesis testing work together to determine whether a new retrieval system is genuinely better than an existing one. Concepts such as null hypothesis, alternative hypothesis, Type-I error, and significance thresholds are explained with practical examples from AI Search evaluation.
+
+One of the key topics covered in this video is variance decomposition. While confidence intervals tell us how uncertain a metric is, variance decomposition helps explain why the uncertainty exists. We examine how different factors contribute to overall performance variation, including query difficulty, retriever behavior, LLM variability, evaluator inconsistency, and residual noise. Using Easy, Medium, and Hard query categories, we show how ANOVA-style analysis can identify the dominant sources of evaluation instability.
+
+The video also covers dataset balancing strategies and explains why evaluation datasets should contain a representative distribution of query complexities. We discuss how an evaluation dataset dominated by easy queries can produce misleading results and how balancing the dataset can improve the reliability of retrieval evaluations.
+
+Finally, we walk through the architecture of a statistically rigorous AI evaluation platform. The discussion includes dataset management, evaluation runners, metric computation, bootstrap analysis, confidence interval estimation, significance testing, variance decomposition, experiment tracking, reporting, and dashboard generation. We also review a GitHub repository structure that can be used to implement such a framework for AI Search, RAG, Knowledge Graph, and enterprise AI applications.
+
+By the end of this video, you will understand how mature AI organizations move beyond simple benchmark scores and build evaluation systems that can distinguish genuine improvements from evaluation noise. Whether you are working on AI Search, Retrieval-Augmented Generation, Agentic AI systems, Knowledge Graph retrieval, FinOps copilots, or enterprise AI applications, these techniques will help you design more reliable and scientifically sound evaluation pipelines.
+
+Topics Covered:
+
+* AI Search Evaluation
+* RAG Evaluation
+* Knowledge Graph Retrieval Evaluation
+* Confidence Intervals
+* Standard Error
+* Bootstrap Resampling
+* Hypothesis Testing
+* P-Values
+* Statistical Significance
+* Variance Decomposition
+* ANOVA Concepts
+* Query Difficulty Analysis
+* Retriever Evaluation
+* LLM Evaluation
+* Experiment Tracking
+* Evaluation Platform Design
+* AI Engineering Best Practices
+
+#AISearch
+#RAG
+#KnowledgeGraph
+#AgenticAI
+#AIEngineering
+#LLM
+#RetrievalAugmentedGeneration
+#SearchEvaluation
+#BootstrapSampling
+#ConfidenceIntervals
+#HypothesisTesting
+#PValue
+#Statistics
+#MachineLearning
+#MLOps
+#AIEvaluation
+#InformationRetrieval
+#NDCG
+#RecallAtK
+#ProductionAI",2026-07-15T14:30:20Z,https://www.youtube.com/watch?v=Fo9s95AZ3I4,3,1,0,PT6M,Retrieved
+_g_1U-U82m4,Your Organization Loses Knowledge Every Day. Here Is the Fix.,"Most organizations have hundreds of documents.
+Architecture records. Project charters. Research papers.
+Meeting notes. Incident reports.
+
+All written down. All stored somewhere.
+All, for practical purposes, invisible.
+
+Not a search problem. A structure problem.
+
+In this video I explain what I built to solve it —
+Knowledge Graph Studio — an AI-powered knowledge
+infrastructure platform that turns your documents into
+a connected, queryable, and fully auditable knowledge
+graph. Automatically.
+
+NEXT IN THE SERIES:
+
+► Engineering Knowledge Platform Demo  
+► Enterprise Knowledge Platform Demo   
+► AI Research Knowledge Platform Demo 
+
+---
+
+APPLY FOR EARLY ACCESS:
+https://abhigyaailab.github.io/#products
+
+LEARN MORE:
+https://abhigyaailab.github.io/#products
+
+---
+
+Built on: Neo4j · FastAPI · GPT-4o · PostgreSQL · React
+
+---
+
+#KnowledgeGraph #EnterpriseAI #GraphRAG #Neo4j
+#AIEngineering #KnowledgeManagement #RAG
+#DocumentAI #InstitutionalMemory #AIProductivity",2026-07-09T04:30:40Z,https://www.youtube.com/watch?v=_g_1U-U82m4,4,1,0,PT13M38S,Retrieved
+AfnFsOlP17w,Top 5 potential bugs in next AI Agent Production deployment- I,,2026-07-03T14:30:03Z,https://www.youtube.com/watch?v=AfnFsOlP17w,1,0,0,PT7M30S,Retrieved
+2lrLIGZerEk,Is LLM as Judge biased?,"Role of LLM as Judge in AI agent evaluation pipeline.
+#llmasjudge #agenticai #aiagentevalution",2026-07-03T07:30:25Z,https://www.youtube.com/watch?v=2lrLIGZerEk,44,1,0,PT2M33S,Retrieved
+qrs_p_Z7EV4,Your AI Demo Works. Production Doesn't. Here's Why.,"Your AI application worked perfectly during the demo—but started failing once it reached production?
+
+That's because production AI systems fail for reasons that rarely show up during development.
+
+In this video, I break down five real-world AI engineering bugs that teams commonly encounter while building LLM applications, RAG pipelines, and agentic AI systems.
+
+You'll learn:
+• Why context engineering failures silently degrade model performance
+• How retrieval quality impacts production accuracy
+• The hidden costs of poor orchestration and agent workflows
+• Why evaluation during development isn't enough
+• Practical engineering approaches to build reliable AI systems
+
+Whether you're building with LangGraph, LangChain, OpenAI, Gemini, or any modern LLM stack, these lessons will help you design AI systems that survive production—not just demos.
+
+Read the complete LinkedIn newsletter:
+https://www.linkedin.com/pulse/five-ai-engineering-bugs-only-appear-production-shuchismita-sahu-z2sgf/
+
+If you found this useful, like the video, subscribe to the channel, and share it with fellow AI engineers building production-grade AI applications.
+#AIEngineering #AgenticAI #GenerativeAI #LLM #LLMOps #ProductionAI #RAG #LangGraph #LangChain #ContextEngineering #AIArchitecture #MachineLearning #ArtificialIntelligence #MLOps #SoftwareEngineering",2026-07-02T14:30:03Z,https://www.youtube.com/watch?v=qrs_p_Z7EV4,2,0,0,PT38M2S,Retrieved
+VVkJcN4JDjA,The architecture mistake that doubled our inference cost: A Production failed Case Study.,"Most teams try to reduce AI costs by switching to a cheaper LLM. That's usually the wrong optimization.
+
+In this video, I walk through a real production architecture redesign where we replaced unnecessary LLM calls with deterministic components like intent classifiers, regex-based metadata extraction, vector search, cross-encoder reranking, and similarity-based confidence scoring.
+
+The result:
+• Average LLM calls reduced from 7 to 1.15 per request
+• Daily token consumption reduced from ~806M to ~396M tokens
+• Overall LLM cost reduced by approximately 61%
+• Average response latency improved from 11 seconds to 2.8 seconds
+• Better answer quality through more focused context and retrieval
+
+Instead of asking an LLM to solve every problem, we used traditional ML models and deterministic logic wherever reasoning wasn't required.
+
+This is one of the biggest differences between AI prototypes and production-grade AI systems.
+
+Topics covered:
+
+* AI System Architecture
+* Agentic AI
+* LLM Cost Optimization
+* RAG Pipeline Optimization
+* Vector Search
+* Cross Encoder Reranking
+* Production AI Engineering
+* AI Inference Cost
+* Enterprise AI
+* Generative AI
+
+#AIEngineering #AgenticAI #LLM #GenerativeAI #RAG #ProductionAI #AIArchitecture #MachineLearning #ArtificialIntelligence #VectorSearch #LangChain #LangGraph #AIAgents #MLOps #SoftwareEngineering",2026-06-30T14:30:34Z,https://www.youtube.com/watch?v=VVkJcN4JDjA,7,0,0,PT37M58S,Retrieved
+8Laqm2qRVRQ,The AI Architecture Change That Cut LLM Cost by 61% | Production AI https://youtu.be/VVkJcN4JDjA,"Most teams try to reduce AI costs by switching to a cheaper LLM. That's usually the wrong optimization.
+
+In this video, I walk through a real production architecture redesign where we replaced unnecessary LLM calls with deterministic components like intent classifiers, regex-based metadata extraction, vector search, cross-encoder reranking, and similarity-based confidence scoring.
+
+Full video: https://youtu.be/VVkJcN4JDjA
+
+The result:
+• Average LLM calls reduced from 7 to 1.15 per request
+• Daily token consumption reduced from ~806M to ~396M tokens
+• Overall LLM cost reduced by approximately 61%
+• Average response latency improved from 11 seconds to 2.8 seconds
+• Better answer quality through more focused context and retrieval
+
+Instead of asking an LLM to solve every problem, we used traditional ML models and deterministic logic wherever reasoning wasn't required.
+
+This is one of the biggest differences between AI prototypes and production-grade AI systems.
+
+Topics covered:
+
+* AI System Architecture
+* Agentic AI
+* LLM Cost Optimization
+* RAG Pipeline Optimization
+* Vector Search
+* Cross Encoder Reranking
+* Production AI Engineering
+* AI Inference Cost
+* Enterprise AI
+* Generative AI
+
+Full video: https://youtu.be/VVkJcN4JDjA
+
+#AIEngineering #AgenticAI #LLM #GenerativeAI #RAG #ProductionAI #AIArchitecture #MachineLearning #ArtificialIntelligence #VectorSearch #LangChain #LangGraph #AIAgents #MLOps #SoftwareEngineering",2026-06-29T14:30:36Z,https://www.youtube.com/watch?v=8Laqm2qRVRQ,21,2,2,PT2M54S,Retrieved
+dZlLUrL6_G0,The Hidden Cost of AI Agents Nobody Talks About #AIAgents #AgenticAI #GenerativeAI #LLM,"Everyone focuses on token costs when discussing AI Agents, but production deployments involve much more. In this Short, I explain the hidden engineering costs behind reliable AI systems, including retrieval, evaluation, monitoring, memory, orchestration, and infrastructure.#aiagents  #AgenticAI #GenerativeAI #LLM #SoftwareEngineering #AIEngineering #SystemDesign #ArtificialIntelligence",2026-06-27T14:30:22Z,https://www.youtube.com/watch?v=dZlLUrL6_G0,6,1,0,PT3M,Retrieved
+r2R5pdO_Vx8,GraphRAG context visualisation in neo4j,"GraphRAG Context Visualization in Neo4j demonstrates how retrieved entities, relationships, and reasoning paths can be visualized as connected knowledge graphs to provide transparency and explainability for AI-generated responses. Learn how Neo4j enables users to explore context, trace information sources, understand entity relationships, and validate retrieval results in GraphRAG systems. This course covers graph traversal, context expansion, path visualization, and explainable AI techniques for building trustworthy enterprise-grade GraphRAG applications. #GraphRAG #Neo4j #KnowledgeGraph #AgenticAI #ExplainableAI",2026-06-23T17:04:53Z,https://www.youtube.com/watch?v=r2R5pdO_Vx8,50,0,0,PT1M59S,Retrieved
+OXWly2I4ah8,Harness Engineering in Agentic AI system,"Harness Engineering in Agentic AI focuses on designing the testing, evaluation, observability, and validation frameworks that ensure AI agents behave reliably in production environments. It covers how to build automated test harnesses, simulate real-world scenarios, measure agent performance, detect failures, and continuously evaluate reasoning, planning, tool usage, and response quality. By implementing robust harness engineering practices, organizations can develop trustworthy, scalable, and production-ready agentic AI systems. #HarnessEngineering #AgenticAI #AIAgents #AIEvaluation #AIEngineering",2026-06-23T16:29:01Z,https://www.youtube.com/watch?v=OXWly2I4ah8,37,2,0,PT2M57S,Retrieved
+d_q67qx6us8,"The AI Agent Worked in Dev, Failed in Production: A Real Architecture Case Study Part-1","In this 4-part series, I break down a real-world AI agent failure that cost a company days of incorrect business reporting and nearly resulted in major decision-making errors. The story begins with an AI-powered data analytics agent that converted natural language questions into SQL queries and returned answers directly from enterprise databases. Everything worked perfectly in development. Every test passed. The team was confident enough to deploy directly to production.
+
+Three days later, their revenue numbers were off by nearly 40%.
+
+The root cause was not a bug in the code. It was an architectural failure.
+
+Through this series, I walk through the complete investigation, the root causes that led to the failure, and the production-grade architecture that ultimately solved the problem. More importantly, I explain why AI agents fail differently from traditional software systems. Traditional systems usually fail loudly with errors and crashes. AI agents often fail convincingly by returning clean, professional, and completely incorrect answers.
+
+Day 1 introduces the consulting engagement and the production incident. We analyze how a Text-to-SQL agent selected the wrong database tables because it lacked awareness of schema complexity and business context. The lesson is simple: an agent that appears intelligent can still be operating with incomplete information.
+
+Day 2 focuses on environment strategy. Many teams believe development environments should mirror production. In reality, development environments are meant for rapid iteration and logic development. The real problem is the absence of a proper staging environment. I explain how a production-like staging environment exposed failures that were completely hidden during development and why every AI system should have a validation stage before deployment.
+
+Day 3 introduces the concept of a structured data context layer. Instead of providing the agent with a raw list of table names, we provide domain information, business descriptions, ownership metadata, authority indicators, and usage boundaries. The result is that the same agent suddenly makes significantly better decisions without changing the underlying model. The discussion covers semantic retrieval architecture, data intelligence layers, contextual authorization, semantic query planning, and enterprise metadata-driven AI systems.
+
+Day 4 focuses on reasoning-level validation. Even with the correct environment and context, AI systems can still generate incorrect SQL queries. To address this, I introduce a validation node inside a LangGraph workflow. This node acts as an internal critic that evaluates generated queries before execution. It checks domain alignment, business metric definitions, table authority, scope correctness, time filters, and query intent. This additional layer prevented multiple incorrect responses from reaching end users.
+
+Day 5 brings everything together into a complete production architecture. We discuss how development, staging, and production environments interact and how context loading, query generation, validation, execution, and response formatting form a reliable AI data pipeline. The discussion emphasizes that environments are not infrastructure decisions alone—they are control systems designed to build trust.
+
+This series is particularly relevant for AI Engineers, Software Architects, Data Engineers, Platform Engineers, Product Teams, and anyone building agentic AI systems that interact with enterprise data. Whether you are building Text-to-SQL systems, AI search engines, RAG applications, knowledge graph retrieval systems, FinOps assistants, business intelligence copilots.
+
+Topics Covered:
+
+• Agentic AI Architecture
+• LangGraph Workflows
+• Production AI Systems
+• Text-to-SQL Agents
+• AI Search Architecture
+• Retrieval-Augmented Generation (RAG)
+• Knowledge Graph Integration
+• Semantic Retrieval
+• Data Intelligence Layer
+• Context Engineering
+• Contextual Authorization
+• Semantic Query Planning
+• AI Governance
+• Enterprise Metadata Management
+• Staging Environment Design
+• Production Readiness
+• AI Validation Frameworks
+• Agent Reliability Engineering
+• AI Observability
+• Enterprise AI Architecture
+• Production Failure Analysis
+• AI System Design
+• LLM Application Engineering
+
+If you're building AI systems for real users, real customers, and real business decisions, this series will help you understand why successful AI products require much more than good prompts and powerful models. Production trust is earned through architecture, validation, governance, and control systems.
+
+#AgenticAI
+#LangGraph
+#AIEngineering
+#GenerativeAI
+#ProductionAI
+#TextToSQL
+#RAG
+#KnowledgeGraph
+#AISearch
+#EnterpriseAI
+#AIArchitecture
+#LLM
+#ContextEngineering
+#AIGovernance
+#SemanticRetrieval
+#DataEngineering
+#SoftwareArchitecture
+#MLOps
+#AIAgents
+#ArtificialIntelligence
+#FinOpsAI
+#PromptEngineering
+#AIInfrastructure
+#SystemDesign
+#AbhigyaAILab",2026-06-19T18:44:44Z,https://www.youtube.com/watch?v=d_q67qx6us8,8,1,0,PT13M28S,Retrieved
+vRAH-cegm8E,How to evaluate an AI search engine with statistical rigor: Design and Implementation steps. Part-3,"In this video, we explore how to evaluate AI Search Engines, RAG systems, and Knowledge Graph retrieval systems with statistical rigor instead of relying solely on metrics such as Recall@K, NDCG, MRR, and MAP.
+
+Many AI teams compare two retrieval systems and make deployment decisions based on a small metric improvement. For example, if Version A achieves an NDCG score of 0.82 and Version B achieves 0.84, the immediate conclusion is often that Version B is better. However, an important question remains unanswered: Is the improvement real, or is it simply a result of randomness in the evaluation dataset?
+
+This video introduces a more scientific approach to AI Search evaluation using confidence intervals, bootstrap resampling, significance testing, and variance decomposition.
+
+We begin by discussing the limitations of traditional evaluation metrics and why a single metric value is insufficient for production-grade AI systems. We then explore confidence intervals and how they help quantify uncertainty around retrieval metrics. You will learn how standard error, confidence levels, alpha values, and hypothesis testing are used to determine whether observed improvements are statistically significant.
+
+Next, we dive into bootstrap resampling, a widely used statistical technique for estimating uncertainty from a fixed evaluation dataset. Starting with a dataset of 500 evaluation queries, we demonstrate how thousands of bootstrap samples can be generated through sampling with replacement and how these samples are used to build a metric distribution and calculate confidence intervals. We also clarify a common misconception: bootstrap does not reduce noise; it measures uncertainty and helps estimate the stability of evaluation metrics.
+
+The discussion then moves to significance testing. We explain how p-values, confidence intervals, and hypothesis testing work together to determine whether a new retrieval system is genuinely better than an existing one. Concepts such as null hypothesis, alternative hypothesis, Type-I error, and significance thresholds are explained with practical examples from AI Search evaluation.
+
+One of the key topics covered in this video is variance decomposition. While confidence intervals tell us how uncertain a metric is, variance decomposition helps explain why the uncertainty exists. We examine how different factors contribute to overall performance variation, including query difficulty, retriever behavior, LLM variability, evaluator inconsistency, and residual noise. Using Easy, Medium, and Hard query categories, we show how ANOVA-style analysis can identify the dominant sources of evaluation instability.
+
+The video also covers dataset balancing strategies and explains why evaluation datasets should contain a representative distribution of query complexities. We discuss how an evaluation dataset dominated by easy queries can produce misleading results and how balancing the dataset can improve the reliability of retrieval evaluations.
+
+Finally, we walk through the architecture of a statistically rigorous AI evaluation platform. The discussion includes dataset management, evaluation runners, metric computation, bootstrap analysis, confidence interval estimation, significance testing, variance decomposition, experiment tracking, reporting, and dashboard generation. We also review a GitHub repository structure that can be used to implement such a framework for AI Search, RAG, Knowledge Graph, and enterprise AI applications.
+
+By the end of this video, you will understand how mature AI organizations move beyond simple benchmark scores and build evaluation systems that can distinguish genuine improvements from evaluation noise. Whether you are working on AI Search, Retrieval-Augmented Generation, Agentic AI systems, Knowledge Graph retrieval, FinOps copilots, or enterprise AI applications, these techniques will help you design more reliable and scientifically sound evaluation pipelines.
+
+Topics Covered:
+
+* AI Search Evaluation
+* RAG Evaluation
+* Knowledge Graph Retrieval Evaluation
+* Confidence Intervals
+* Standard Error
+* Bootstrap Resampling
+* Hypothesis Testing
+* P-Values
+* Statistical Significance
+* Variance Decomposition
+* ANOVA Concepts
+* Query Difficulty Analysis
+* Retriever Evaluation
+* LLM Evaluation
+* Experiment Tracking
+* Evaluation Platform Design
+* AI Engineering Best Practices
+
+#AISearch
+#RAG
+#KnowledgeGraph
+#AgenticAI
+#AIEngineering
+#LLM
+#RetrievalAugmentedGeneration
+#SearchEvaluation
+#BootstrapSampling
+#ConfidenceIntervals
+#HypothesisTesting
+#PValue
+#Statistics
+#MachineLearning
+#MLOps
+#AIEvaluation
+#InformationRetrieval
+#NDCG
+#RecallAtK
+#ProductionAI",2026-06-19T17:07:08Z,https://www.youtube.com/watch?v=vRAH-cegm8E,1,0,0,PT25M46S,Retrieved
+DtuYYMpkrkE,Why Every AI Agent Needs These 5 Memory Layers #AIAgents #KnowledgeGraph #GraphRAG #RAG #Neo4j,"In this video, we explore the 5 Layers of AI Agent Memory and map them to corresponding Knowledge Layers used in modern Agentic AI systems.
+
+As AI agents become more autonomous, memory management becomes critical for planning, reasoning, personalization, context retention, and long-term learning. We discuss how different memory layers align with structured knowledge representations such as semantic layers, knowledge graphs, vector stores, ontologies, and enterprise knowledge systems.
+
+Topics Covered:
+
+What is AI Agent Memory?
+Short-Term vs Long-Term Memory
+Episodic Memory
+Semantic Memory
+Procedural Memory
+Working Memory
+Mapping Memory Layers to Knowledge Layers
+
+#AgenticAI #AIAgents #KnowledgeGraph #GraphRAG #RAG #LangGraph #LangChain #Neo4j #GenerativeAI #ArtificialIntelligence #Ontology #SemanticLayer #AIArchitecture #MachineLearning #EnterpriseAI",2026-06-18T05:09:26Z,https://www.youtube.com/watch?v=DtuYYMpkrkE,21,0,0,PT33M20S,Retrieved
+10G2hXelVLU,Ontology intro,"What is an Ontology, and why is it important for AI, Knowledge Graphs, and Enterprise Data Management?
+
+In this video, we introduce the fundamentals of Ontology and explore how it helps create a shared understanding of concepts, relationships, and business knowledge across systems.
+
+Whether you are building Knowledge Graphs, Agentic AI systems, Semantic Search, RAG applications, or Enterprise AI solutions, understanding ontology is a critical first step toward creating intelligent and explainable systems.
+
+Topics Covered:
+
+What is an Ontology?
+Why Ontologies are Important
+Ontology vs Database Schema
+Ontology vs Taxonomy
+Classes, Properties, and Relationships
+Ontology Design Principles
+Ontologies in Knowledge Graphs
+Ontologies for Agentic AI
+Real-World Enterprise Use Cases
+Popular Ontology Tools and Frameworks
+
+Who Should Watch:
+
+AI Engineers
+Data Architects
+Knowledge Graph Engineers
+Data Scientists
+Enterprise Architects
+Semantic Web Practitioners
+GenAI Developers
+Students and Researchers
+
+Tools and Technologies:
+
+Knowledge Graphs
+RDF
+OWL
+Neo4j
+Protégé
+SPARQL
+GraphRAG
+Agentic AI
+Semantic Layer
+Enterprise Knowledge Management
+
+By the end of this video, you will understand the role of ontology in organizing knowledge, enabling reasoning, and building scalable AI-powered systems.
+
+https://www.udemy.com/course/enterprise-ontology-engineering-with-protege-rdf-owl/?couponCode=PROMO549
+
+#Ontology #KnowledgeGraph #SemanticWeb #RDF #OWL #Neo4j #GraphRAG #AgenticAI",2026-06-18T05:09:16Z,https://www.youtube.com/watch?v=10G2hXelVLU,53,1,0,PT25M43S,Retrieved
+_8LVBftVCRg,My Introduction,"I started this channel with a simple mission: To make AIML practical, honest and accessible for everyone.
+
+Most AI content teaches demos. This channel teaches production systems.
+
+At Abhigya AI Lab, we break down real-world AI failures, architectural decisions, and production-ready solutions for Agentic AI, LangGraph, RAG, Knowledge Graphs, Multi-Agent Systems, and Enterprise AI.
+
+If you want to learn how AI systems actually work in production—not just in tutorials—you're in the right place.
+
+Subscribe and join the journey from AI engineer to AI architect.
+
+New videos every week covering:
+• Agentic AI
+• LangGraph
+• RAG & GraphRAG
+• Knowledge Graphs
+• AI System Design
+• Production AI Failures
+• AI Observability
+• AI Evaluation
+• Open Source AI Stack
+
+#AgenticAI #LangGraph #RAG #KnowledgeGraph #GenerativeAI #AIEngineering #ProductionAI #AbhigyaAILab",2026-06-06T07:48:58Z,https://www.youtube.com/watch?v=_8LVBftVCRg,17,0,0,PT6M46S,Retrieved
